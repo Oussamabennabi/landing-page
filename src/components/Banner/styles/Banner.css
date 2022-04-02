@@ -1,0 +1,53 @@
+.Banner-section {
+  min-height: 219px;
+  text-align: center;
+  background-image: url(../../../images/bg-simplify-section-desktop.svg);
+  background-color: #f25f3a;
+  padding-bottom: 89px;
+  padding-top: 101px;
+}
+
+.Banner-section .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Banner-section .container h2 {
+  color: white;
+  font-size: 41px;
+}
+
+.Banner-section .container button {
+  color: #f25f3a;
+  padding: 18px 41px;
+  background-color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.Banner-section .container button:hover {
+  color: #f9ad9a;
+}
+
+@media screen and (max-width: 970px) {
+  .Banner-section .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Banner-section .container h2 {
+    margin-bottom: 25px;
+  }
+}
+/*# sourceMappingURL=Banner.css.map */

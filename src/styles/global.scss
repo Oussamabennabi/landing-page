@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Poppins:wght@500;700&display=swap');
+@import './variables/variables.scss';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $VaryLightGray;
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+// GLOBAL STYLING :
+h1,
+h2,
+h3,
+h4,
+h5 {
+	color: $DarkBlue;
+}
+h1 {
+	font-size: 3.5rem;
+}
+h2 {
+	font-size: 1.9rem;
+}
+h3 {
+	font-size: 1.1rem;
+}
+p {
+	font-size: 1rem;
+	color: $DarkGrayishBlue;
+}
+a {
+	text-decoration: none;
+}
+input {
+	border-radius: 8px;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	color: $DarkBlue;
+	font-family: inherit;
+}
+input::placeholder {
+	color: $DarkGrayishBlue;
+}
+button {
+	cursor: pointer;
+	border-radius: 30px;
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 0.6rem 1rem;
+	background-color: $Red;
+	box-shadow: 0 5px 10px hsl(12, 88%, 79%);
+	transition: $Alltransition;
+}
+button:hover {
+	background-color: hsl(12, 88%, 69%);
+}
+
+.container {
+	max-width: 1128px;
+	padding: 0rem 1rem;
+	margin: auto;
+}
+
+.header {
+	background-image: url(../images/bg-simplify-section-desktop.svg);
+}
+// SCROLL BAR :
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+	background: $Red;
+	border-radius: 3px;
+}

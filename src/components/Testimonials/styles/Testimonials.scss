@@ -1,0 +1,66 @@
+@import '../../../styles/variables/variables.scss';
+
+.Testimonials-section {
+	min-height: 646px;
+	margin-top: 3rem;
+	text-align: center;
+	h2 {
+	}
+	button {
+		padding: 17px 31px;
+	}
+	.cards-container {
+		margin-top: 100px;
+		margin-bottom: 48px;
+		display: flex;
+		align-items: flex-end;
+		padding: auto;
+		width: auto;
+		height: 310px;
+		margin-left: auto;
+		margin-right: auto;
+		gap: 31px;
+		overflow-x: auto;
+		.card {
+			&:first-child {
+				margin-left: auto;
+			}
+			&:last-child {
+				margin-right: auto;
+			}
+			min-width: 539px;
+			max-width: 539px;
+			z-index: 100;
+			height: 219px;
+			text-align: center;
+			background-color: $VeryPaleRed;
+			border-radius: 5px;
+			margin-bottom: 1rem;
+			img {
+				transform: translateY(-50%);
+				width: 73px;
+			}
+			h3 {
+				margin-bottom: 30px;
+			}
+			p {
+				line-height: 1.5;
+			}
+		}
+	}
+}
+
+@media screen and (max-width:570px) {
+	.Testimonials-section {
+	.cards-container {
+		.card {
+			min-width: 340px;
+			max-width: 339px;
+			height: auto;
+			p {
+			padding-bottom: 1rem;
+			}
+		}
+	}
+	}
+}

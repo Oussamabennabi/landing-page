@@ -1,0 +1,127 @@
+.Features-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  min-height: 690px;
+}
+
+.Features-section .Features-info {
+  width: 59.89%;
+}
+
+.Features-section .Features-info h2 {
+  font-size: 31px;
+  padding-bottom: 31px;
+  padding-right: 238px;
+}
+
+.Features-section .Features-info p {
+  padding-right: 333px;
+  line-height: 1.4;
+}
+
+.Features-section .articals {
+  width: 40.1%;
+}
+
+.Features-section .articals article {
+  position: relative;
+}
+
+.Features-section .articals article:not(:last-child) {
+  margin-bottom: 52px;
+}
+
+.Features-section .articals article h3 {
+  padding-bottom: 31px;
+  font-size: 17px;
+}
+
+.Features-section .articals article p {
+  line-height: 1.4;
+}
+
+.Features-section .articals article span {
+  position: absolute;
+  top: -8.5px;
+  left: -83px;
+  width: 66px;
+  height: 39px;
+  display: block;
+  line-height: 39px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #f25f3a;
+}
+
+@media screen and (max-width: 976px) {
+  .Features-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    min-height: 690px;
+  }
+  .Features-section .Features-info h2 {
+    padding-right: 100px;
+  }
+  .Features-section .Features-info p {
+    padding-right: 200px;
+  }
+  .Features-section .articals article p {
+    padding-right: 70px;
+  }
+}
+
+@media screen and (max-width: 831px) {
+  .Features-section {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Features-section .Features-info {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 59px;
+    width: 70%;
+  }
+  .Features-section .Features-info h2 {
+    padding-right: 0;
+  }
+  .Features-section .Features-info p {
+    padding-right: 0;
+  }
+  .Features-section .articals {
+    width: 100%;
+  }
+  .Features-section .articals article h3 {
+    padding: 10px 0;
+    margin-bottom: 18px;
+    padding-left: 83px;
+    width: 100%;
+    background-color: #fff0eb;
+  }
+  .Features-section .articals article p {
+    padding-right: 10px;
+  }
+  .Features-section .articals article span {
+    top: 0px;
+    left: 0;
+  }
+}
+/*# sourceMappingURL=Features.css.map */

@@ -1,0 +1,42 @@
+@import '../../../styles/variables/variables.scss';
+
+
+.Banner-section {
+  min-height: 219px;
+  text-align: center;
+  background-image: url(../../../images/bg-simplify-section-desktop.svg);
+  background-color: $Red;
+  padding-bottom: 89px;
+  padding-top:101px ;
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+      color: white;
+      font-size: 41px;
+    }
+    button {
+      color: $Red;
+      padding:18px 41px;
+      background-color: white;
+      box-shadow: none;
+      transition: $Alltransition;
+      &:hover {
+        color: hsl(12, 88%, 79%);
+      }
+    }
+  }
+}
+@media screen and (max-width:970px){
+  .Banner-section {
+  .container {
+    flex-direction: column;
+    h2 {
+      margin-bottom: 25px;
+    }
+  }
+  }
+  
+}
